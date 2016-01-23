@@ -1,0 +1,87 @@
+body{
+    font-family: monospace, sans-serif;
+}
+.main-container{
+    text-align: center;
+}
+ul.menu {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    padding: 0;
+}
+ul.menu li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu li a{
+    border: 1px solid darkgray;
+    background-color: olivedrab;
+    color: #ffffff;
+    display: inline-block;
+    padding: 0.5em 1em;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+ul.menu li a:hover{
+    background-color:dimgray;
+}
+
+.inner ul.menu{
+    overflow: hidden;
+    margin: 0;
+    width: auto;
+}
+.inner ul.menu li{
+    width: auto;
+    margin: 0;
+    float: left;
+}
+
+.inner ul.menu li a {
+    display: inline-block;
+    width: auto;
+    margin: 0 6px 0 0;
+}
+.inner ul.menu li:nth-child(3) a{
+    margin-right: 0;
+}
+
+.inner-container{
+    width: 300px;
+
+    text-align: center;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+input[type="button"]{
+    padding: 0.5em 0.5em;
+    border-radius:0 0 0 0;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    outline: 0;
+    float: right;
+}
+input[type="button"]:first-child{
+    float: left;
+}
+input[type="text"]{
+    width: 93%;
+    line-height: 25px;
+    padding: 0 0.5em;
+    font-size: 1em;
+}
+.row{
+    overflow: hidden;
+}
+select{
+    width: 100%;
+    height: 30px;
+    padding: 0 0.5em;
+    font-size: 1em;
+}

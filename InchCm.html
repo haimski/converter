@@ -2,9 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>AppVerter</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-
+<div class="main-container inner size">
+    <div class="inner-container">
+        <div class="menu-wrapper">
+            <ul class="menu">
+                <li>
+                    <a href="FarenheiCelsius.html">
+                        Temperature
+                    </a>
+                </li>
+                <li>
+                    <a href="InchCm.html">
+                        Size
+                    </a>
+                </li>
+                <li>
+                    <a href="MilesKm.html">
+                        Length
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            <p>
+                <input type="text" name="inputBox" id="inputBox" placeholder="Enter Value" />
+            </p>
+        </div>
+        <div class="row">
+            <p>
+                <select name="conversionChoice" id="conversionChoice">
+                    <option value="InchToCM">Inches -> Centimeters</option>
+                    <option value="CMToInch">Centimeters -> Inches</option>
+                </select>
+            </p>
+        </div>
+        <div class="row">
+            <p>
+                <input type="text" name="outputBox" id="outputBox" />
+            </p>
+        </div>
+        <div class="row">
+            <p>
+                <input type="button" value="CONVERT" id="conversionBtn" />
+            </p>
+        </div>
+    </div>
+</div>
+<script src="js/script.js" type="application/javascript"></script>
 </body>
 </html>
